@@ -1,11 +1,20 @@
+.wrapper {
+  background-image: linear-gradient(120deg, #000904 0%, #54839a 100%);
+  border-radius: 20px;
+  padding: 10px;
+  border-spacing: 100px;
+  width: 90%;
+  color: white;
+  row-gap: 50%;
+}
 .container-movie-title {
   padding: 20px;
   border: 1px solid #d4d4d4;
   border-radius: 15px;
   text-align: center;
   /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
-  border-radius: 20px;
-  padding: 10px;
+  /* border-radius: 20px;
+  padding: 10px; */
   border-spacing: 100px;
   width: 90%;
 }
@@ -13,4 +22,23 @@
 #search-input {
   width: 95%;
   padding: 0 50px 0 10px;
+}
+
+#container-search-results {
+  padding: 20px;
+  border: 1px solid #d4d4d4;
+  border-radius: 15px;
+  border-spacing: 100px;
+  background-color: white;
+  color: rgb(17, 0, 208);
+  width: 50%;
+}
+
+#container-nominations {
+  padding: 20px;
+  border: 1px solid #d4d4d4;
+  border-radius: 15px;
+  border-spacing: 100px;
+  background-color: black;
+  width: 50%;
 }

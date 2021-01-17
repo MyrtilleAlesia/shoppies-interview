@@ -15,20 +15,21 @@ let moviesList = [];
 
 //Search for the movie
 function search(event){
-    event.preventDefault();
-    // let moviesList = [];
-    let apiKey = "609ce333";
-    let searchInput = document.querySelector("#search-input").value;
-    // let apiUrl = 'http://www.omdbapi.com/?t=${searchInput}&apikey=${apiKey}';
-    let apiUrl = "http://www.omdbapi.com/?t=" + searchInput + "&apikey=" + apiKey;
+    // event.preventDefault();
+    // // let moviesList = [];
+    // let apiKey = "609ce333";
+    // let searchInput = document.querySelector("#search-input").value;
+    // // let apiUrl = 'http://www.omdbapi.com/?t=${searchInput}&apikey=${apiKey}';
+    // let apiUrl = "http://www.omdbapi.com/?t=" + searchInput + "&apikey=" + apiKey;
     // axios.get(apiUrl).then(showMovieTitle);
-    console.log("xxxxxxxxxxxxxxx",apiUrl);
-    let fn1 = fetch(apiUrl)
-    .then((res) => res.json())
-    .then((data) => return data.Title)
-    console.log("dddddddddddd",fn1);
+    // console.log("xxxxxxxxxxxxxxx",apiUrl);
+    // let fn1 = fetch(apiUrl)
+    // .then((res) => res.json())
+    // .then((data) => data.Title)
+    // console.log("dddddddddddd",fn1);
+    console.log("hhhhhh")
 
-    showMovieTitle(fn1)
+    //showMovieTitle(fn1)
 
    
 }

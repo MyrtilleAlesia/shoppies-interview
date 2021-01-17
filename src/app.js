@@ -21,7 +21,11 @@ function search(event){
     let searchInput = document.querySelector("#search-input").value;
     // let apiUrl = 'http://www.omdbapi.com/?t=${searchInput}&apikey=${apiKey}';
     let apiUrl = "http://www.omdbapi.com/?t=" + searchInput + "&apikey=" + apiKey;
-    axios.get(apiUrl).then(showMovieTitle);
+    // axios.get(apiUrl).then(showMovieTitle);
+
+    fetch(apiUrl)
+    .then((res) => res.json())
+    .then((data) => console.log("data", data))
 }
 
 let searchForm = document.querySelector("#search-form");
@@ -42,7 +46,7 @@ function showMovieTitle(response){
 
 
 function addMovie(){
-    
+
 }
 
 

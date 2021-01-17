@@ -17,25 +17,27 @@
   /* border-radius: 20px;
   padding: 10px; */
   border-spacing: 100px;
-  width: 90%;
+  width: 91%;
   padding-left: 10px;
+  margin-bottom: 20px;
 }
 
 #search-input {
-  width: 95%;
+  width: 85%;
   padding: 0 50px 0 10px;
 }
 
 #container-search-results {
   padding: 20px;
-  border: 0px solid #d4d4d4;
+  border: 1px solid #d4d4d4;
   border-radius: 15px;
   border-spacing: 100px;
   background-color: white;
   color: rgb(17, 0, 208);
   width: 50%;
-  padding-left: 10px;
-  column-gap: 10px;
+  margin-left: 15px;
+  margin-right: 53px;
+  margin-bottom: 10px;
 }
 
 #container-nominations {
@@ -45,4 +47,15 @@
   border-spacing: 100px;
   background-color: black;
   width: 50%;
+  margin-bottom: 10px;
+}
+
+button {
+  color: rgb(230, 255, 129);
+  background-color: rgb(18, 2, 2);
+}
+
+button:hover {
+  color: white;
+  background-color: rgb(255, 0, 0);
 }

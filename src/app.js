@@ -29,14 +29,35 @@ const test = (event) => {
 
         // add a button // add a sttle so the button willb gv 
         const button = document.createElement('button');
-        button.textContent = 'nominate';
+        button.textContent = 'Nominate';
 
-        ulReference.appendChild(li);
+        //const body = document.getElementsByTagName('body')[0];
 
-        });
+        ulReference.appendChild(li).appendChild( button);
+
+        //Adding nominated movies to Nominations list
+        const [nominateReference] = document.getElementsByClassName('nomination-list-by-search');
+        response.forEach(element =>{
+        const movie = document.createElement('li');
+        movie.innerHTML = button.addEventListener("click", fn1)
+        const nominationButton = document.createElement('button');
+        nominationButton.textContent = 'Remove';
+        nominateReference.appendChild(movie).appendChild(nominationButton);
+        
     })
-console.log("dddddddddddd",fn1);
+
+
+
+       // button.addEventListener("click", fn1)
+
+    });
+
+
+    })
+// console.log("dddddddddddd",fn1);
 
 
 return false;
 }
+
+

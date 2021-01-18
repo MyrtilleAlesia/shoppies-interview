@@ -12,7 +12,7 @@ const test = (event) => {
     let apiKey = "609ce333";
     let searchInput = document.querySelector("#search-input").value;
      // let apiUrl = 'http://www.omdbapi.com/?t=${searchInput}&apikey=${apiKey}';
-    let apiUrl = "http://www.omdbapi.com/?s=" + searchInput + "&apikey=" + apiKey;
+    let apiUrl = "https://www.omdbapi.com/?s=" + searchInput + "&apikey=" + apiKey;
     //console.log(apiUrl)
     let fn1 = fetch(apiUrl)
     .then((res) => res.json())
